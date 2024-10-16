@@ -25,12 +25,45 @@ return (
             <button className='text-yellow-400 text-xs font-bold border border-yellow-400 px-5 py-3 my-10 mx-10 rounded-[20px]'>SHOW MORE</button>
            
             </div>
-               <div className="box">
-                <div className="box1">1</div>
-                <div className="box2">2</div>
-               </div>
+              <div className='boxx'>
+              <div className="box">
+                <div className="box1">
+                    <p>
+                    Create Landing Page
+                    <br />
+                    <button className='butonn text-base text-slate-600 font-light'>Read More</button>
 
-        </div>
+                    </p>
+                    
+                </div>
+                <div className="box2"><p>
+                    Why We Collect User's Data
+                    <br />
+                    <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                    </p> 
+                    </div>
+                  </div>
+
+                  <div className='boxa'>
+                  <div className="box3"><p>
+                    Creative Branding
+                    <br />
+                    <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                    </p> 
+                    </div>
+
+                    <div className="box"><p>
+                    Why We Collect User's Data
+                    <br />
+                    <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                    </p> 
+                    </div>
+                  </div>
+
+                </div>
+
+                </div>
+        
     </>
 )
 }
