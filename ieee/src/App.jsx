@@ -31,8 +31,7 @@ return (
                     <div className="box1 leading-loose">
                         <p>
                             <div className="boxa"></div>
-                            <br />
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Website</button>
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px] my-7'>Website</button>
                             <br />
                             Create Landing Page
                             <br />
@@ -60,13 +59,7 @@ return (
                             </p> 
                         </div>
 
-                        <div className="box4">
-                            <p>
-                                Why We Collect User's Data
-                                <br />
-                                <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                                </p> 
-                        </div>
+                        
 
                         
 
@@ -87,11 +80,13 @@ return (
                         </p>
                         
                     </div>
-                    <div className="box2 leading-9">
+                    <div className="box22 leading-9">
                         <p>
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Branding</button>
+                        <div className="boxab"></div>
+                        
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px] my-6'>Branding</button>
                             <br />
-                            Creative Branding
+                            Creative Landing Page
                             <br />
                             <button className='butonn text-base text-slate-600 font-light'>Read More</button>
                         </p> 
@@ -107,13 +102,7 @@ return (
                             </p> 
                         </div>
 
-                        <div className="box4">
-                            <p>
-                                Why We Collect User's Data
-                                <br />
-                                <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                                </p> 
-                        </div>
+                       
 
                         
 
