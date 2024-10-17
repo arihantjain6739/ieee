@@ -9,6 +9,7 @@ function App() {
 return (
     <>
         <div class="root">
+            <div className="root2">
             <div>
             <div>
                 <p className='text-white text-4xl mx-10 my-10 font-bold leading-relaxed'>
@@ -26,49 +27,109 @@ return (
            
             </div>
               <div className='boxx'>
-              <div className="box">
-                <div className="box1 leading-loose">
+                <div className="box">
+                    <div className="box1 leading-loose">
+                        <p>
+                            <div className="boxa"></div>
+                            <br />
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Website</button>
+                            <br />
+                            Create Landing Page
+                            <br />
+                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                        </p>
+                        
+                    </div>
+                    <div className="box2 leading-9">
+                        <p>
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Branding</button>
+                            <br />
+                            Creative Branding
+                            <br />
+                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                        </p> 
+                    </div>
+                </div>
+
+                        <div className="box3">
+                            <p>
+                            Automation. Advanced Level
+
+                            <br />
+                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                            </p> 
+                        </div>
+
+                        <div className="box4">
+                            <p>
+                                Why We Collect User's Data
+                                <br />
+                                <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                                </p> 
+                        </div>
+
+                        
+
+                    </div> 
+                    {/* boxx end */}
+
+                    <div className='boxx'>
+                <div className="box">
+                    <div className="box1 leading-loose">
+                        <p>
+                            <div className="boxa"></div>
+                            <br />
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Website</button>
+                            <br />
+                            Create Landing Page
+                            <br />
+                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                        </p>
+                        
+                    </div>
+                    <div className="box2 leading-9">
+                        <p>
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Branding</button>
+                            <br />
+                            Creative Branding
+                            <br />
+                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                        </p> 
+                    </div>
+                </div>
+
+                        <div className="box3">
+                            <p>
+                            Automation. Advanced Level
+
+                            <br />
+                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                            </p> 
+                        </div>
+
+                        <div className="box4">
+                            <p>
+                                Why We Collect User's Data
+                                <br />
+                                <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+                                </p> 
+                        </div>
+
+                        
+
+                    </div> 
+                    {/* boxx end */}
+
                     
-                    <p>
-                    <div className="boxa"></div>
-                    <br />
-                    <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Website</button>
-                    <br />
-                    Create Landing Page
-                    <br />
-                    <button className='butonn text-base text-slate-600 font-light'>Read More</button>
+            </div>
+            {/* root2 end */}
 
-                    </p>
                     
-                </div>
-                <div className="box2 leading-9"><p>
-                    <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Branding</button>
-                    <br />
-                    Creative Branding
-                    <br />
-                    <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                    </p> 
-                    </div>
-                  </div>
 
-                  <div className="box3"><p>
-                  Automation. Advanced Level
+                </div> 
+                {/* root end */}
 
-                    <br />
-                    <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                    </p> 
-                    </div>
-
-                    <div className="box4"><p>
-                    Why We Collect User's Data
-                    <br />
-                    <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                    </p> 
-                    </div>
-
-                </div>
-
-                </div>
+                
         
     </>
 )

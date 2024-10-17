@@ -9,6 +9,16 @@
 
 }
 
+.root2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.boxx{
+    diplay: flex;
+}
+
 .box1 {
     padding-top: 100px;
     width: 30vw;        /* Width of the box */
