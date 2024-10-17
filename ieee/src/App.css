@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 *{
+
     background-color: black;
     margin-top:10px
 }
@@ -19,18 +21,23 @@
 }
 
 .box1 {
-        padding-top: 100px;
-        width: 30vw;
-        height: 50vh;
-        color: white;
-        align-items: center;
-        border: 1px solid #ffffff;
-        border-radius: 5px;
-        margin: 2vw;
-        font-family: Arial, sans-serif;
-        margin-top: 50px;
-        padding-top: 17px;
-        padding-left: 0px;
+    padding-top: 100px;
+    width: 30vw;
+    height: 50vh;
+    color: white;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 2vw;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    padding-top: 17px;
+    padding-left: 0px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.box1:hover {
+    transform: scale(1.04);
 }
 
 .box11 {
@@ -46,6 +53,18 @@
         margin-top: 50px;
         padding-top: 1px;
         padding-left: 0px;
+        transition: transform 0.2s ease-in-out;
+}
+.box11:hover {
+    transform: scale(1.04);
+}
+
+.showmore{
+    transition: transform 0.2s ease-in-out;
+}
+
+.showmore:hover {
+    transform: scale(1.09);
 }
 
 .box11 p{
@@ -70,6 +89,10 @@
         font-family: Arial, sans-serif;
         margin-top: 5px;
         padding-top: 17px;
+        transition: transform 0.2s ease-in-out;
+}
+.box22:hover {
+    transform: scale(1.04);
 }
 
 .box22 p{
@@ -126,6 +149,10 @@
         font-family: Arial, sans-serif;
         margin-top: 5px;
         padding-top: 17px;
+        transition: transform 0.2s ease-in-out;
+}
+.box2:hover {
+    transform: scale(1.04);
 }
 
 .box2 p{
@@ -149,6 +176,10 @@
         margin-top: 50px;
         padding-top: 17px;
         padding-left: 0px;
+        transition: transform 0.2s ease-in-out;
+}
+.box4:hover {
+    transform: scale(1.04);
 }
 
 .box3{
@@ -162,6 +193,11 @@
         font-family: Arial, sans-serif;
         margin-top: 5px;
         padding-top: 1px;
+        transition: transform 0.2s ease-in-out;
+}
+
+.box3:hover {
+    transform: scale(1.04);
 }
 
 .box3 p{
@@ -174,7 +210,7 @@
 
 .box33{
         width: 30vw;
-        height: 22vh;
+        height: 28vh;
         color: white;
         align-items: center;
         border: 1px solid #ffffff;
@@ -182,7 +218,11 @@
         margin: 2vw;
         font-family: Arial, sans-serif;
         margin-top: 5px;
-        padding-top: 1px;
+        padding-top: 18px;
+        transition: transform 0.2s ease-in-out;
+}
+.box33:hover {
+    transform: scale(1.04);
 }
 
 .box33 p{
@@ -201,4 +241,13 @@
 .butonn {
         font-family: 'Arial', sans-serif;
         font-size: 16px;
+        transition: color 0.1s ease;
+        transition:transform 0.2s ease-in-out;
+        font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.butonn:hover {
+    color: #ffffff;
+    transform: scale(1.04);
 }

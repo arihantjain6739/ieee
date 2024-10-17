@@ -23,7 +23,7 @@ return (
                     </p>
             </div>
             {/* commet */}
-            <button className='text-yellow-400 text-xs font-bold border border-yellow-400 px-5 py-3 my-10 mx-10 rounded-[20px]'>SHOW MORE</button>
+            <button className='showmore text-yellow-400 text-xs font-bold border border-yellow-400 px-5 py-3 my-10 mx-10 rounded-[20px]'>SHOW MORE</button>
            
             </div>
               <div className='boxx'>
