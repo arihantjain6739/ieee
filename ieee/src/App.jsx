@@ -31,7 +31,7 @@ return (
                     <div className="box1 leading-loose">
                         <p>
                             <div className="boxa"></div>
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px] my-7'>Website</button>
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px] my-7'>WEBSITE</button>
                             <br />
                             Create Landing Page
                             <br />
@@ -41,7 +41,7 @@ return (
                     </div>
                     <div className="box2 leading-9">
                         <p>
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Branding</button>
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>BRANDING</button>
                             <br />
                             Creative Branding
                             <br />
@@ -50,8 +50,12 @@ return (
                     </div>
                 </div>
 
-                        <div className="box3">
+                        <div className="box3 px-6">
                             <p>
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px] my-7'>DEVELOPMENT</button>
+                    
+                            <br />
+                            
                             Automation. Advanced Level
 
                             <br />
@@ -72,7 +76,7 @@ return (
                         <p>
                             
                             
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Website</button>
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>DIGITAL MARKETING</button>
                             <br />
                             Why We collect users data
                             <br />
@@ -84,7 +88,7 @@ return (
                         <p>
                         <div className="boxab"></div>
                         
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px] my-6'>Branding</button>
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px] my-6'>USER TESTING</button>
                             <br />
                             Creative Landing Page
                             <br />
@@ -93,9 +97,12 @@ return (
                     </div>
                 </div>
 
-                        <div className="box3">
+                        <div className="box33">
                             <p>
-                            Automation. Advanced Level
+                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>SEO</button>
+                            <br />
+                            <br />
+                            How we Optimized our SEO
 
                             <br />
                             <button className='butonn text-base text-slate-600 font-light'>Read More</button>
