@@ -29,6 +29,8 @@ return (
               <div className="box">
                 <div className="box1">
                     <p>
+                    <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Website</button>
+                    <br />
                     Create Landing Page
                     <br />
                     <button className='butonn text-base text-slate-600 font-light'>Read More</button>
@@ -36,17 +38,19 @@ return (
                     </p>
                     
                 </div>
-                <div className="box2"><p>
-                    Why We Collect User's Data
+                <div className="box2 leading-9"><p>
+                    <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Branding</button>
+                    <br />
+                    Creative Branding
                     <br />
                     <button className='butonn text-base text-slate-600 font-light'>Read More</button>
                     </p> 
                     </div>
                   </div>
 
-                  <div className='boxa'>
                   <div className="box3"><p>
-                    Creative Branding
+                  Automation. Advanced Level
+
                     <br />
                     <button className='butonn text-base text-slate-600 font-light'>Read More</button>
                     </p> 
@@ -58,7 +62,6 @@ return (
                     <button className='butonn text-base text-slate-600 font-light'>Read More</button>
                     </p> 
                     </div>
-                  </div>
 
                 </div>
 
