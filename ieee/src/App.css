@@ -36,6 +36,34 @@
   }
 
 
+  .box11 {
+    padding-top: 100px;
+    width: 30vw;        /* Width of the box */
+    height: 20vh;       /* Height of the box */
+     /* Box color */
+    color: white;        /* Text color */
+    align-items: center; /* Center content vertically */
+    border: 1px solid #ffffff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    margin: 2vw;       /* Space around the box */
+    font-family: Arial, sans-serif; /* Font style */
+    margin-top: 50px;
+    padding-top: 1px;
+    padding-left: 0px;
+  }
+
+  .box11 p{
+    text-align: left;
+    justify-content: left;
+    padding-left: 15px;
+    padding-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 25px;
+
+}
+
+
   .boxa {
     margin-top: 1px;
     margin-left: 5px;
@@ -58,6 +86,8 @@
     font-weight: bold;
 
 }
+
+
 
 
 

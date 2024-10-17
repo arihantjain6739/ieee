@@ -75,13 +75,13 @@ return (
 
                     <div className='boxx'>
                 <div className="box">
-                    <div className="box1 leading-loose">
+                    <div className="box11 leading-loose">
                         <p>
-                            <div className="boxa"></div>
-                            <br />
+                            
+                            
                             <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Website</button>
                             <br />
-                            Create Landing Page
+                            Why We collect users data
                             <br />
                             <button className='butonn text-base text-slate-600 font-light'>Read More</button>
                         </p>
