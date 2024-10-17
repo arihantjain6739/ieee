@@ -27,8 +27,11 @@ return (
             </div>
               <div className='boxx'>
               <div className="box">
-                <div className="box1">
+                <div className="box1 leading-loose">
+                    
                     <p>
+                    <div className="boxa"></div>
+                    <br />
                     <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>Website</button>
                     <br />
                     Create Landing Page
@@ -56,7 +59,7 @@ return (
                     </p> 
                     </div>
 
-                    <div className="box"><p>
+                    <div className="box4"><p>
                     Why We Collect User's Data
                     <br />
                     <button className='butonn text-base text-slate-600 font-light'>Read More</button>
