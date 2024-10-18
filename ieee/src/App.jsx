@@ -1,134 +1,69 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
 
 function App() {
-  const [count, setCount] = useState(0)
+  return (
+    <div className="container mx-auto p-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="col-span-1">
+          <h1 className="text-4xl font-bold mb-4">Some pieces of our work</h1>
+          <p className="text-gray-400 mb-6">
+            Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt.
+          </p>
+          <button className="px-6 py-2 border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition duration-300">
+            SHOW MORE
+          </button>
+        </div>
+        <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* WEBSITE - spans 2 rows */}
+          <div className="border border-gray-700 p-4 row-span-2">
+            <img src="https://placehold.co/600x400/6b5b95/6b5b95" alt="Creative landing page" className="mb-4" />
+            <span className="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">WEBSITE</span>
+            <h2 className="text-xl font-bold mt-2">Creative landing page</h2>
+            <a href="#" className="text-gray-400 mt-2 inline-block">Read more <i className="fas fa-arrow-right"></i></a>
+          </div>
 
-return (
-    <>
-        <div class="root">
-            <div className="root2">
-            <div>
-            <div>
-                <p className='text-white text-4xl mx-10 my-10 font-bold leading-relaxed'>
-                    Some Pieces Of Our
-                    <br />
-                    Work
-                </p>
-                
-                <p className='text-gray-400 font-bold mx-10 leading-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    <br /> Facilis necessitatibus eum nam soluta hic cupiditate <br />amet deleniti laborum laboriosam. Aut!
-                    </p>
-            </div>
-            {/* commet */}
-            <button className='showmore text-yellow-400 text-xs font-bold border border-yellow-400 px-5 py-3 my-10 mx-10 rounded-[20px]'>SHOW MORE</button>
-           
-            </div>
-              <div className='boxx'>
-                <div className="box">
-                    <div className="box1 leading-loose">
-                        <p>
-                            <div className="boxa"></div>
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px] my-7'>WEBSITE</button>
-                            <br />
-                            Create Landing Page
-                            <br />
-                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                        </p>
-                        
-                    </div>
-                    <div className="box2 leading-9">
-                        <p>
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>BRANDING</button>
-                            <br />
-                            Creative Branding
-                            <br />
-                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                        </p> 
-                    </div>
-                </div>
 
-                        <div className="box3 px-6">
-                            <p>
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px] my-7'>DEVELOPMENT</button>
-                    
-                            <br />
-                            
-                            Automation. Advanced Level
+            
+          {/* DIGITAL MARKETING */}
+          <div className="border border-gray-700 p-4">
+            <span className="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">DIGITAL MARKETING</span>
+            <h2 className="text-xl font-bold mt-2">Why We Collect User’s Data</h2>
+            <a href="#" className="text-gray-400 mt-2 inline-block">Read more <i className="fas fa-arrow-right"></i></a>
+          </div>
+          <div className="border border-gray-700 p-4 row-span-2">
+            <img src="https://placehold.co/600x400/6b5b95/6b5b95" alt="Creative landing page" className="mb-4" />
+            <span className="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">USER TESTING</span>
+            <h2 className="text-xl font-bold mt-2">Creative landing page</h2>
+            <a href="#" className="text-gray-400 mt-2 inline-block">Read more <i className="fas fa-arrow-right"></i></a>
+          </div>
 
-                            <br />
-                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                            </p> 
-                        </div>
+          {/* BRANDING */}
+          <div className="border border-gray-700 p-4">
+            <span className="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">BRANDING</span>
+            <h2 className="text-xl font-bold mt-2">Creative Branding</h2>
+            <a href="#" className="text-gray-400 mt-2 inline-block">Read more <i className="fas fa-arrow-right"></i></a>
+          </div>
 
-                        
-
-                        
-
-                    </div> 
-                    {/* boxx end */}
-
-                    <div className='boxx'>
-                <div className="box">
-                    <div className="box11 leading-loose">
-                        <p>
-                            
-                            
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>DIGITAL MARKETING</button>
-                            <br />
-                            Why We collect users data
-                            <br />
-                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                        </p>
-                        
-                    </div>
-                    <div className="box22 leading-9">
-                        <p>
-                        <div className="boxab"></div>
-                        
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px] my-6'>USER TESTING</button>
-                            <br />
-                            Creative Landing Page
-                            <br />
-                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                        </p> 
-                    </div>
-                </div>
-
-                        <div className="box33">
-                            <p>
-                            <button className='butonn text-base text-slate-600 font-light bg-yellow-400 px-3 rounded-[5px]'>SEO</button>
-                            <br />
-                            <br />
-                            How we Optimized our SEO
-
-                            <br />
-                            <button className='butonn text-base text-slate-600 font-light'>Read More</button>
-                            </p> 
-                        </div>
-
-                       
-
-                        
-
-                    </div> 
-                    {/* boxx end */}
-
-                    
-            </div>
-            {/* root2 end */}
-
-                    
-
-                </div> 
-                {/* root end */}
-
-                
+          {/* USER TESTING - spans 2 rows */}
         
-    </>
-)
+
+          {/* DEVELOPMENT */}
+          <div className="border border-gray-700 p-4">
+            <span className="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">DEVELOPMENT</span>
+            <h2 className="text-xl font-bold mt-2">Automation. Advanced Level</h2>
+            <a href="#" className="text-gray-400 mt-2 inline-block">Read more <i className="fas fa-arrow-right"></i></a>
+          </div>
+
+          {/* SEO */}
+          <div className="border border-gray-700 p-4">
+            <span className="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">SEO</span>
+            <h2 className="text-xl font-bold mt-2">How We Optimized Our SEO</h2>
+            <a href="#" className="text-gray-400 mt-2 inline-block">Read more <i className="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
